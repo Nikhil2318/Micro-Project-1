@@ -1,0 +1,103 @@
+.mainContent {
+    background-color: #FFCD9E; 
+    width: 100%;
+    height: 430px;
+    display: flex;
+}
+.left-text{
+    width: 562px;
+    height: 108px;
+    margin-top: 30px;
+    margin-left: 110px;
+     gap: 0px;
+    opacity: 0px;
+}
+.left-text .text1{
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: left;
+}
+
+.left-text .text2{
+    color: #484848;
+    font-family: Inter;;
+}
+ .left-text .text3{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 38px;
+    text-align: left;
+ }
+
+ .left-text .textbox{
+   width: 250px;
+   height: 30px;
+   border: 1px solid black;
+   border-radius: 3px;
+   padding-left: 12px;
+ }
+
+ .left-text .btn{
+    margin-left: 10px;
+    width: 120px;
+    height: 35px;
+    border-radius: 8px;
+    background-color: black;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 24.2px;
+    text-align: center;
+    color: white;
+    border: none;
+ }
+
+ .left-text .text4{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 25.6px;
+    color: white;
+    padding-left: 30px;
+ }
+
+ 
+ .image img{
+    width: 450px;
+    height: 450px;
+    padding-left: 150px;
+    mix-blend-mode: multiply;
+ }
+
+ .footer{
+    background: #282828;
+    width: 100%;
+    height: 170px;
+    display: flex;
+    padding-top: 15px;
+ }
+
+ .footer .left-foot-text{
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    text-align: left;
+    padding-left: 150px;
+ }
+
+ .footer .right-foot-text{
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    text-align: right;
+    padding-left: 800px;
+ }
+
+ .footer .right-foot-text .email{
+    padding-top: 9px;
+ }
